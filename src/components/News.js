@@ -34,7 +34,7 @@ const News = (props) =>{
 
   //This hook is used to change the title according to the category of news
     useEffect(() => {
-      document.title = `${capitalizeFirstLetter(props.category)} - News Monkey`
+      document.title = `${capitalizeFirstLetter(props.category)} - News Rail`
       updations();
       //eslint-disable-next-line
     }, [])
