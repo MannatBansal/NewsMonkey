@@ -1,14 +1,8 @@
 import React from "react";
 
 const NewsItem = (props) => {
-  // export class NewsItem extends Component {
-  //   render() {
-  //we dont need to change the title and description for particular item
-  //thats why we use props for that as props are read only
-  //if we want to change anything we will use state
-  //newsUrl will always be unique
-  //let {title, description, imageUrl, newsUrl, author, date, source} = this.props; //this.props is used in class based
   let { title, description, imageUrl, newsUrl, author, date, source } = props;
+  
   return (
     <div>
       <div className="card">
@@ -20,7 +14,7 @@ const NewsItem = (props) => {
             right: "0",
           }}
         >
-          <span className="badge rounded-pill bg-primary">{source}</span>
+        <span className="badge rounded-pill bg-primary">{source}</span>
         </div>
         <img
           src={
@@ -53,7 +47,6 @@ const NewsItem = (props) => {
       </div>
     </div>
   );
-  //}}
 };
 
 export default NewsItem;
