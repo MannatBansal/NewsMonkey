@@ -11,16 +11,8 @@ import LoadingBar from 'react-top-loading-bar';
 
 const App = () =>{
   const apiKey = process.env.REACT_APP_NEWS_API_KEY
-  //apiKey = "8242f677d5aa4affafdd50c4f501aaa2"
   const [progress, setProgress] = useState(0)
-  // state = {
-  //   progress:0
-  // }
-
-  // setProgress = (progress) => {
-  //   this.setState({progress: progress})
-  // }
-    
+  
     return (
       <div>
         <Router>
