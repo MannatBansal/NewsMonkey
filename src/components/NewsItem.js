@@ -23,7 +23,7 @@ const NewsItem = (props) => {
               : imageUrl
           }
           className="card-img-top"
-          alt="NewsMonkey headlines"
+          alt="NewsRail headlines"
           style={{ height: "200px" }}
         />
         <div className="card-body">
